@@ -1,0 +1,22 @@
+#page1_row3_start_button, #page1_row3_pause_button, #page1_row3_pss_button, #page1_row3_play_button, #page1_row3_save_button{
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+}
+#page1_row3_start_button:hover, #page1_row3_pause_button:hover, #page1_row3_pss_button:hover, #page1_row3_play_button:hover, #page1_row3_save_button:hover{
+    background-color: rgb(255, 67, 67);
+    color: white;
+}
+
+#page1_button, #page2_button{
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+}
+
+#page1_button:hover, #page2_button:hover{
+    background-color: rgb(255, 67, 67);
+    color: white;
+}
