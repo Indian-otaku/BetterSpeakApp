@@ -11,8 +11,7 @@ BetterSpeak is a powerful desktop application designed to assist individuals in 
 To run the BetterSpeak app, you must convert the PyQt5 code into an executable using PyInstaller. Here are the steps:
 
 1. Install PyInstaller via pip:
-`pip install pyinstaller`
+`pip install -r requirements.txt`.
 2. Navigate to the directory containing your BetterSpeak code and run:
-Copy code
-`pyinstaller --onefile main.py`
-3. Run the generated executable file. 
+`pyi-makespec main.py --noconsole --splash .\betterspeaklogo.ico --icon .\betterspeaklogo.ico` followed by `pyinstaller main.spec`.
+4. Run the generated executable file. 
